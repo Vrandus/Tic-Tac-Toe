@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string-array name="firstPlayer">
+        <item>Player X</item>
+        <item>Player O</item>
+    </string-array>
+    <string-array name="rowCol">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
