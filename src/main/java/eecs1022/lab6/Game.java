@@ -35,7 +35,7 @@ public class Game {
                 }
 
             }
-            if (currentPlayer.equals("Player O")) {
+            else if (currentPlayer.equals("Player O")) {
                 if(board[col-1][row-1] == '.') {
                     board[col-1][row-1] = 'o';
                     currentPlayer = "Player X";
@@ -57,6 +57,9 @@ public class Game {
             else if(currentPlayer.equals("Player X")) {
                 output += "\nthe Game ends with " + p2o + " winning";
             }
+        }
+        else if(isBoardFull() == true && checkForWin() == false){
+            output += "\n"
         }
     }
     public boolean isBoardFull() {
